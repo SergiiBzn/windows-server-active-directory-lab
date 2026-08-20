@@ -22,3 +22,29 @@ The current environment consists of:
 **Network:** `192.168.100.0/24`  
 **Domain:** `wbstraining.internal`  
 **Hyper-V Switch:** Private virtual switch
+
+---
+
+## Architecture
+
+```text
+                    Hyper-V
+                       |
+                 Private Switch
+                       |
+                192.168.100.0/24
+                       |
+        +--------------+--------------+
+        |              |              |
+     Server1        Server2        Server3
+   192.168.100.10  192.168.100.20  192.168.100.1
+        |
+   AD DS + DNS
+      + DHCP
+        |
+        +-------------------------+
+        |                         |
+     Client1                   Client2
+      DHCP                      DHCP
+      Domain                    Domain
+```
