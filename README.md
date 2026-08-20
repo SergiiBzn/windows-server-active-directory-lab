@@ -1,4 +1,3 @@
-````markdown
 # Windows Server / Active Directory Lab
 
 Hands-on infrastructure lab created during my  
