@@ -1,3 +1,4 @@
+```markdown
 # Lab Architecture
 
 This document describes the current architecture of the Windows Server / Active Directory lab.
@@ -83,23 +84,18 @@ Intended role:
 ## Architecture Diagram
 
 ```text
-                    Hyper-V
-                       |
-                 Private Switch
-                       |
-                192.168.100.0/24
-                       |
-        +--------------+--------------+
-        |              |              |
-     Server1        Server2        Server3
-      .10             .20            .1
-        |
-   AD DS + DNS
-      + DHCP
-        |
-        +-------------------------+
-        |                         |
-     Client1                   Client2
-      DHCP                      DHCP
-      Domain                    Domain
+                         Hyper-V Host
+                              |
+                       Private vSwitch
+                              |
+                     192.168.100.0/24
+                              |
+        +-----------+---------+---------+-----------+
+        |           |                   |           |
+     Server1     Server2             Server3     Client1/2
+  192.168.100.10 192.168.100.20   192.168.100.1     DHCP
+        |           |                   |           |
+ AD DS / DNS /   Member Server     Gateway       Windows 11
+     DHCP                          planned       Domain Clients
+```
 ```
