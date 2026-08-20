@@ -80,7 +80,7 @@ windows-server-active-directory-lab/
 └── powershell/
     ├── README.md
     └── create-lab-vms.ps1
-
+```
 ---
 
 ## Implemented Features
