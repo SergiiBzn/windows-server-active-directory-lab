@@ -1,4 +1,3 @@
-````markdown
 # Lab Architecture
 
 This document describes the current architecture of the Windows Server / Active Directory lab.
