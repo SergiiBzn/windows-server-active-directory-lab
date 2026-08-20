@@ -1,4 +1,3 @@
-```markdown
 # Lab Architecture
 
 This document describes the current architecture of the Windows Server / Active Directory lab.
@@ -97,5 +96,4 @@ Intended role:
         |           |                   |           |
  AD DS / DNS /   Member Server     Gateway       Windows 11
      DHCP                          planned       Domain Clients
-```
 ```
