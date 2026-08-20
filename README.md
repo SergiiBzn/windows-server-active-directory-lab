@@ -48,3 +48,17 @@ The current environment consists of:
       DHCP                      DHCP
       Domain                    Domain
 ```
+
+---
+
+## Implemented Features
+
+### Hyper-V & VM Templates
+
+- Created reusable Windows Server 2022 and Windows 11 VM templates
+- Used Audit Mode and Sysprep to generalize the operating system images
+- Created VMs from reusable VHDX templates
+- Used Differencing Disks to reduce disk usage
+- Created Server1, Server2, Server3, Client1 and Client2 with PowerShell
+- Configured CPU, memory and Hyper-V settings with PowerShell
+- Disabled automatic checkpoints for the lab virtual machines
