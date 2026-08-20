@@ -97,3 +97,17 @@ The current environment consists of:
 - Verified DHCP leases with `ipconfig /renew` and `ipconfig /all`
 - Joined Client1 and Client2 to the domain `wbstraining.internal`
 - Verified domain logon with `whoami` and `%logonserver%`
+
+### Verification & Troubleshooting
+
+The lab environment was verified using standard Windows networking and domain tools.
+
+- Checked network configuration with `ipconfig /all`
+- Tested connectivity between servers and clients with `ping`
+- Verified DNS resolution with `nslookup`
+- Verified the current user context with `whoami`
+- Verified the active Domain Controller with `%logonserver%`
+- Checked DHCP leases on Server1
+- Confirmed that Client1 and Client2 received addresses from the configured DHCP scope
+- Verified that both Windows 11 clients successfully joined the domain
+- Troubleshot blocked ICMP traffic by enabling the Windows Firewall rule for Echo Requests
