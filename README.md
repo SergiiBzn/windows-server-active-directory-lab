@@ -73,3 +73,14 @@ The current environment consists of:
 - Configured default gateway `192.168.100.1`
 - Tested connectivity with `ping`, `ipconfig` and `nslookup`
 - Enabled ICMP Echo Requests in Windows Firewall for troubleshooting
+
+### Active Directory & DNS
+
+- Installed **Active Directory Domain Services (AD DS)** and DNS on Server1
+- Promoted Server1 to a Domain Controller
+- Created a new Active Directory forest
+- Configured the domain `wbstraining.internal`
+- Configured NetBIOS name `WBSTRAINING`
+- Verified domain controller functionality with `whoami`, `hostname` and `%logonserver%`
+- Verified DNS resolution with `nslookup`
+- Tested DNS registration and cache troubleshooting with `ipconfig /registerdns` and `ipconfig /flushdns`
