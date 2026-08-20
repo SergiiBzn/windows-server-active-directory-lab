@@ -51,6 +51,20 @@ The current environment consists of:
 
 ---
 
+## Documentation
+
+Detailed documentation for the lab:
+
+- [Lab Architecture](docs/architecture.md)
+- [Hyper-V Setup](docs/hyper-v-setup.md)
+- [Networking](docs/networking.md)
+- [Active Directory](docs/active-directory.md)
+- [DNS and DHCP](docs/dns-dhcp.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [PowerShell Scripts](powershell/README.md)
+
+---
+
 ## Implemented Features
 
 ### Hyper-V & VM Templates
