@@ -111,3 +111,20 @@ The lab environment was verified using standard Windows networking and domain to
 - Confirmed that Client1 and Client2 received addresses from the configured DHCP scope
 - Verified that both Windows 11 clients successfully joined the domain
 - Troubleshot blocked ICMP traffic by enabling the Windows Firewall rule for Echo Requests
+
+---
+
+## Skills Demonstrated
+
+- Windows Server 2022
+- Hyper-V
+- Active Directory Domain Services
+- DNS
+- DHCP
+- TCP/IP and IPv4
+- Windows 11 Domain Clients
+- PowerShell
+- Domain Join
+- Windows Firewall
+- Troubleshooting
+- IT Documentation
