@@ -65,6 +65,24 @@ Detailed documentation for the lab:
 
 ---
 
+## Repository Structure
+
+```text
+windows-server-active-directory-lab/
+├── README.md
+├── docs/
+│   ├── architecture.md
+│   ├── hyper-v-setup.md
+│   ├── networking.md
+│   ├── active-directory.md
+│   ├── dns-dhcp.md
+│   └── troubleshooting.md
+└── powershell/
+    ├── README.md
+    └── create-lab-vms.ps1
+
+---
+
 ## Implemented Features
 
 ### Hyper-V & VM Templates
