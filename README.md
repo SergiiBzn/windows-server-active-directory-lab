@@ -84,3 +84,16 @@ The current environment consists of:
 - Verified domain controller functionality with `whoami`, `hostname` and `%logonserver%`
 - Verified DNS resolution with `nslookup`
 - Tested DNS registration and cache troubleshooting with `ipconfig /registerdns` and `ipconfig /flushdns`
+
+### DHCP & Domain Clients
+
+- Installed and authorized the DHCP Server role on Server1
+- Created DHCP scope `LAB-Clients`
+- Configured address range `192.168.100.100–192.168.100.200`
+- Configured gateway `192.168.100.1`
+- Configured DNS server `192.168.100.10`
+- Configured DNS suffix `wbstraining.internal`
+- Configured Client1 and Client2 to obtain IP and DNS settings automatically
+- Verified DHCP leases with `ipconfig /renew` and `ipconfig /all`
+- Joined Client1 and Client2 to the domain `wbstraining.internal`
+- Verified domain logon with `whoami` and `%logonserver%`
