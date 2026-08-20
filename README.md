@@ -62,3 +62,14 @@ The current environment consists of:
 - Created Server1, Server2, Server3, Client1 and Client2 with PowerShell
 - Configured CPU, memory and Hyper-V settings with PowerShell
 - Disabled automatic checkpoints for the lab virtual machines
+
+### Networking
+
+- Configured a private Hyper-V network using `192.168.100.0/24`
+- Assigned static IPv4 addresses to the servers
+- Configured Server1 to use itself as the internal DNS server
+- Configured Server2 and Server3 to use Server1 for DNS resolution
+- Defined DHCP range `192.168.100.100–192.168.100.200` for Windows 11 clients
+- Configured default gateway `192.168.100.1`
+- Tested connectivity with `ping`, `ipconfig` and `nslookup`
+- Enabled ICMP Echo Requests in Windows Firewall for troubleshooting
