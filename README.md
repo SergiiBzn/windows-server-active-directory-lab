@@ -138,13 +138,13 @@ The lab environment was verified using standard Windows networking and domain to
 
 Detailed documentation for the lab:
 
-* [Lab Architecture](docs/architecture.md)
-* [Hyper-V Setup](docs/hyper-v-setup.md)
-* [Networking](docs/networking.md)
-* [Active Directory](docs/active-directory.md)
-* [DNS and DHCP](docs/dns-dhcp.md)
-* [Troubleshooting](docs/troubleshooting.md)
-* [PowerShell Scripts](powershell/README.md)
+- [Lab Architecture](docs/architecture.md)
+- [Hyper-V Setup](docs/hyper-v-setup.md)
+- [Networking](docs/networking.md)
+- [Active Directory](docs/active-directory.md)
+- [DNS and DHCP](docs/dns-dhcp.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [PowerShell Scripts](powershell/README.md)
 
 ---
 
@@ -160,6 +160,8 @@ windows-server-active-directory-lab/
 │   ├── active-directory.md
 │   ├── dns-dhcp.md
 │   └── troubleshooting.md
+├── images/
+│   └── hyper-v-lab-overview.png
 └── powershell/
     ├── README.md
     └── create-lab-vms.ps1
