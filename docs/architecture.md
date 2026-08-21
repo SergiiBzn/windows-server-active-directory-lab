@@ -28,7 +28,7 @@ End:           192.168.100.200
 Gateway:       192.168.100.1
 DNS Server:    192.168.100.10
 DNS Suffix:    wbstraining.internal
-````
+```
 
 ## Server Roles
 
