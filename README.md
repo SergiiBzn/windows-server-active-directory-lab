@@ -26,6 +26,14 @@ The current environment consists of:
 
 ---
 
+## Lab Environment
+
+The following screenshot shows the Hyper-V environment used for the lab.
+
+![Hyper-V Lab Overview](images/hyper-v-lab-overview.png)
+
+---
+
 ## Architecture
 
 ```text
